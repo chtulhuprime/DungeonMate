@@ -28,7 +28,7 @@ class _CharacterDetailsScreenState extends State<CharacterDetailsScreen> {
       InventoryScreen(character: widget.character),
       SpellScreen(character: widget.character),
       DiceRollScreen(character: widget.character),
-      InteractiveMapScreen(character: widget.character),
+      InteractiveMapScreen(),
     ]);
   }
 
